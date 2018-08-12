@@ -1,6 +1,15 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+<h2>Introdution</h2>
+<br>
+This is the 3rd project for Udacity’s FEND Nanodegree. The assignment is to build a clone of the classic Frogger Arcade game. To win the game, the player must travel from one end of the  board to the other. There will be obstacles in the way, so the player must avoid the ‘enemies’ to reach the finish point.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+
+<h2>Resources</h2>
+<br>
+<a href = "https://zoom.us/recording/play/aulotDlzKFegQFIJTaTzKgWvNkVsYtlwO454vL1UPE1Cm6lOUBQCtfVurPOIAGAS?startTime=1529542978000" target="_blank"> Project 3 Walk-Through by Roderick Bloomfield</a>
+<br>
+
+<a href = "https://matthewcranford.com/arcade-game-walkthrough-part-1-starter-code-breakdown/" target="_blank">Walk-Through Series by Matthew Cranford</a>
+

@@ -10,6 +10,7 @@ class Entity {
     this.y = 5;
   }
 
+//When the player reaches the goal, the player returns to the starting point.
   resetGame() {
     this.x = 2;
     this.y = 5;
@@ -25,7 +26,7 @@ class Entity {
     ctx.drawImage(Resources.get(this.sprite), this.x * 101, this.y * 83);
   }
 
-//checks collision for player or enemy
+//checks collision for player or enemy, player returns back to starting point
 
   checkCollisions(playerOrEnemy) {
     if (this.y === playerOrEnemy.y) {
@@ -49,10 +50,11 @@ class Player extends Entity {
     this.win = false;
   }
 
+//When player wins, an alert displays and the game is reset
 update(dt) {
   super.update();
   if (this.isOutOfBoundsY && !this.moving && !this.win) {
-    alert("Win");
+    alert("You made it to the finish line!");
     this.win = true;
     this.resetGame();
   }

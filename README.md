@@ -1,7 +1,7 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-<h2>Introdution</h2>
+<h2>Introduction</h2>
 <br>
 This is the 3rd project for Udacity’s FEND Nanodegree. The assignment is to build a clone of the classic Frogger Arcade game. To win the game, the player must travel from one end of the  board to the other. There will be obstacles in the way, so the player must avoid the ‘enemies’ to reach the finish point.
 
@@ -12,4 +12,3 @@ This is the 3rd project for Udacity’s FEND Nanodegree. The assignment is to bu
 <br>
 
 <a href = "https://matthewcranford.com/arcade-game-walkthrough-part-1-starter-code-breakdown/" target="_blank">Walk-Through Series by Matthew Cranford</a>
-

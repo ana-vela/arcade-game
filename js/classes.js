@@ -2,7 +2,7 @@
  * https://zoom.us/recording/play/aulotDlzKFegQFIJTaTzKgWvNkVsYtlwO454vL1UPE1Cm6lOUBQCtfVurPOIAGAS?startTime=1529542978000
  */
 
-
+//Entity class to be used by player an enemy classes
 class Entity {
   constructor() {
     this.sprite = 'images/';
@@ -65,6 +65,7 @@ render() {
   this.moving = false;
 }
 
+//when direction keys are pressed, the player moves accordingly
 handleInput(input) {
   switch(input) {
     case 'left':
@@ -82,7 +83,7 @@ handleInput(input) {
     default:
       break;
     }
-  this.moving = true;
+      this.moving = true;
   }
 }
 
@@ -97,8 +98,15 @@ class Enemy extends Entity {
       this.y = y;
     }
 
+/* JS random method guide: https://www.w3schools.com/jsref/jsref_random.asp
+ *  Enemy bugs move at slightly different rates to make it harder for player to reach goals
+ */
     update(dt) {
       super.update();
+      let time = Math.floor((Math.random() * 5));
+      time = time * dt;
+      this.x += time;
+
       if(this.isOutOfBoundsX){
         this.x = -1;
       }

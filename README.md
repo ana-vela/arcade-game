@@ -7,7 +7,7 @@ This is the 3rd project for Udacity’s FEND Nanodegree. The assignment is to bu
 
 
 # Resources
-* [Project 3 Walk-Through by Roderick Bloomfield(https://zoom.us/recording/play/aulotDlzKFegQFIJTaTzKgWvNkVsYtlwO454vL1UPE1Cm6lOUBQCtfVurPOIAGAS?startTime=1529542978000)
+* [Project 3 Walk-Through by Roderick Bloomfield](https://zoom.us/recording/play/aulotDlzKFegQFIJTaTzKgWvNkVsYtlwO454vL1UPE1Cm6lOUBQCtfVurPOIAGAS?startTime=1529542978000)
 
 * Walk-Through Series by Matthew Cranford   
   https://matthewcranford.com/arcade-game-walkthrough-part-1-starter-code-breakdown
